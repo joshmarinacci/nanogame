@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "target": "es6",
+    "moduleResolution": "node"
+  },
+  "include": ["./src/**/*"]
+}
