@@ -101,3 +101,10 @@ export function image_to_imagedata(img: HTMLImageElement):ImageData {
 }
 
 
+export function uuid(prefix: string) {
+    return prefix + "_" + Math.floor(Math.random()*100000000)
+}
+export function toHex(c: number) {
+    if(c < 16) return "0"+c.toString(16)
+    return c.toString(16)
+}
